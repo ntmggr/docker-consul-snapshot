@@ -2,10 +2,10 @@ FROM alpine:latest
 MAINTAINER ntmggr
 ENV REFRESHED_AT 2016-06-23
 
-ENV S3BUCKET=microservices-devops
-ENV S3REGION=us-west-2
-ENV BACKUPINTERNAL=60
-ENV CONSUL_HTTP_ADDR=127.0.0.1:8500
+ENV S3BUCKET microservices-devops
+ENV S3REGION us-west-2
+ENV BACKUPINTERVAL 60
+ENV CONSUL_HTTP_ADDR 127.0.0.1:8500
 
 # install necessary packages
 RUN apk update && apk add make curl git mercurial bzr go && \
