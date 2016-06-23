@@ -1,5 +1,5 @@
 # docker-consul-shapshot
-Runs [consul-snapshot](https://github.com/pshima/consul-snapshot)
+Dockerized [consul-snapshot](https://github.com/pshima/consul-snapshot)
 
 ## Build
 `cd Dockerfile && docker build -t consul-snapshot .`
